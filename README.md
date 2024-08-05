@@ -7,7 +7,7 @@ Final project fulfilling the requirements for DS 6021 Linear Models for Data Sci
 * finalWorth: The final net worth of the billionaire in U.S. dollars (millions of dollars).
 * category: The category or industry in which the billionaire's business operates.
 * personName: The full name of the billionaire.
-* age: The age of the billionaire (years).
+* age: The age of the billionaire (in years).
 * country: The country in which the billionaire resides.
 * city: The city in which the billionaire resides.
 * source: The source of the billionaire's wealth.

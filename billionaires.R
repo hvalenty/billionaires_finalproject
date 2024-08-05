@@ -6,7 +6,22 @@ setwd('C:/Users/Valenty/VSCode/billionaires_finalproject')
 df <- read.csv('data/Billionaires-Statistics.csv', na.strings = '')
 names(df)
 View(df)
-table(df$country)
+gdpna <- df[is.na(df$gdp_country),]
+View(gdpna)
+pick <- gdpna[, c('country', "cpi_country",                               
+          "cpi_change_country",                        
+         "gdp_country",                               
+           "gross_tertiary_education_enrollment",       
+          "gross_primary_education_enrollment_country",
+          "life_expectancy_country",                   
+          "tax_revenue_country_country" ,              
+          "total_tax_rate_country" ,                   
+        "population_country" )]
+View(pick)
+
+df$tax_revenue_country_country
+unique(df$tax_revenue_country_country)
+names(df)
 
 table(df$gender)
 
